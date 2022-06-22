@@ -1,24 +1,21 @@
 stages:
-    - staging
+    - imageToNfsStatic
 
 .stg-nova-club-content: &stg-nova-club-content
-    stage: staging
+    stage: imageToNfsStatic
     tags:
       - G-STGR8SYNC071
     script:
-      - echo "deploy nova-club-content"
-      - ls && pwd
-      - sudo chown nfsnobody.nfsnobody * -R
-      - sudo chmod 777 * -R
-      - sudo rsync -av --delete --password-file=/root/.rsyncd.secrets content/ root@nfs-stage.n88club.local::web_static/nova-club/content
-      #- sudo sh ${_workDir}/ezdeployStg.sh ${_yamlName} ${_ProjectGroup} ${_FolderName} ${_gitBranch} ${_dockerfile}
+      - echo "deploy nova-club-content To Nfs Static"
+      - _pwd=`pwd` && echo ${_pwd}
+      - sudo sh ${_workDir}/ezrsynctonfs.sh ${_pwd}
+
     when: manual
 stg-nova-club-content:
   <<: *stg-nova-club-content
   variables:
-    _workDir: "/mnt/infra/deployStage"
-    _yamlName: "stg-n88club-h5"
+    _workDir: "/mnt/infra/deployProd_Prod"
     _ProjectGroup: "Frontend"
-    _FolderName: "nova-club"
+    _FolderName: "nova-club-content"
     _gitBranch: "master"
-    _dockerfile: "Dockerfile"
+    _dockerfile: ""
