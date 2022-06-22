@@ -7,6 +7,7 @@ stages:
       - G-STGR8SYNC071
     script:
       - echo "deploy nova-club-content"
+      - ls && pwd
       #- sudo sh ${_workDir}/ezdeployStg.sh ${_yamlName} ${_ProjectGroup} ${_FolderName} ${_gitBranch} ${_dockerfile}
     when: manual
 stg-nova-club-content:
