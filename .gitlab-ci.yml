@@ -10,7 +10,7 @@ stages:
       - ls && pwd
       - sudo chown nfsnobody.nfsnobody * -R
       - sudo chmod 777 * -R
-      - sudo rsync -av --password-file=/root/.rsyncd.secrets content/ root@nfs-stage.n88club.local::web_static/nova-club/content
+      - sudo rsync -av --delete --password-file=/root/.rsyncd.secrets content/ root@nfs-stage.n88club.local::web_static/nova-club/content
       #- sudo sh ${_workDir}/ezdeployStg.sh ${_yamlName} ${_ProjectGroup} ${_FolderName} ${_gitBranch} ${_dockerfile}
     when: manual
 stg-nova-club-content:
