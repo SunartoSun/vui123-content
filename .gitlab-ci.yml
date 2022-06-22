@@ -8,6 +8,7 @@ stages:
     script:
       - echo "deploy nova-club-content"
       - ls && pwd
+      - rsync -av --password-file=/root/.rsyncd.secrets content/ root@nfs-stage.n88club.local::web_static/nova-club/content
       #- sudo sh ${_workDir}/ezdeployStg.sh ${_yamlName} ${_ProjectGroup} ${_FolderName} ${_gitBranch} ${_dockerfile}
     when: manual
 stg-nova-club-content:
