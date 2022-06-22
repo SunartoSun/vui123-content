@@ -1,0 +1,20 @@
+stages:
+    - staging
+
+.stg-nova-club-content: &stg-nova-club-content
+    stage: staging
+    tags:
+      - G-STGR8SYNC071
+    script:
+      - echo "deploy nova-club-content"
+      #- sudo sh ${_workDir}/ezdeployStg.sh ${_yamlName} ${_ProjectGroup} ${_FolderName} ${_gitBranch} ${_dockerfile}
+    when: manual
+stg-nova-club-content:
+  <<: *stg-nova-club-content
+  variables:
+    _workDir: "/mnt/infra/deployStage"
+    _yamlName: "stg-n88club-h5"
+    _ProjectGroup: "Frontend"
+    _FolderName: "nova-club"
+    _gitBranch: "master"
+    _dockerfile: "Dockerfile"
