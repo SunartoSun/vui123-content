@@ -4,12 +4,12 @@ stages:
 .stg-nova-club-content: &stg-nova-club-content
     stage: imageToNfsStatic
     tags:
-      - G-STGR8SYNC071
+      - TWN8SYNC031
     script:
       - echo "deploy nova-club-content To Nfs Static"
       - _pwd=`pwd` && echo ${_pwd}
-      - sudo sh ${_workDir}/ezrsynctonfs.sh ${_pwd}
-
+      #- sudo sh ${_workDir}/ezrsynctonfs.sh ${_pwd}
+      #- rsync -av --delete /mnt/k8sdata/em/www/web_static/static/nvclub/nova-club/content/ 
     when: manual
 stg-nova-club-content:
   <<: *stg-nova-club-content
