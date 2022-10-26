@@ -8,7 +8,7 @@ stages:
     script:
       - echo "deploy nova-club-content To Nfs Static"
       - _pwd=`pwd` && echo ${_pwd}
-      - rsync -av --delete ${_pwd}/content/ /mnt/k8sdata/em/www/web_static/static/nvclub/nova-club/content
+      - sudo rsync -av --delete ${_pwd}/content/ /mnt/k8sdata/em/www/web_static/static/nvclub/nova-club/content
     when: manual
 stg-nova-club-content:
   <<: *stg-nova-club-content
