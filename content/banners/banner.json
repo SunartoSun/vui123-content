@@ -1,9 +1,15 @@
 [
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b1.jpg"
+    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b1.jpg",
+    "action": {
+      "type": "livechat"
+    }
   },
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b2.jpg"
+    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b2.jpg",
+    "action": {
+      "type": "livechat"
+    }
   },
   {
     "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b3.jpg"
