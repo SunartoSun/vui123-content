@@ -3,9 +3,11 @@
     "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/wcbanner.jpg",
     "action": {
       "type": "internalRedirect",
-      "uri": "/event/tnc",
-      "params": {
-        "locale": "vn"
+      "payload": {
+        "uri": "/event/wctnc",
+        "params": {
+          "locale": "vn"
+        }
       }
     }
   },
