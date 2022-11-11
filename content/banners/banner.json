@@ -1,5 +1,15 @@
 [
   {
+    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/wcbanner.jpg",
+    "action": {
+      "type": "internalRedirect",
+      "uri": "/event/tnc",
+      "params": {
+        "locale": "vn"
+      }
+    }
+  },
+  {
     "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b1.jpg?v=1",
     "action": {
       "type": "livechat"
