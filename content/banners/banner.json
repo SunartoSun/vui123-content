@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/wcbanner.jpg",
+    "image": "wcbanner.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
