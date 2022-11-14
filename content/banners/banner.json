@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/wcbanner.jpg",
+    "image": "wcbanner.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
@@ -12,18 +12,24 @@
     }
   },
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b1.jpg?v=1",
+    "image": "downloadApp.jpg",
+    "action": {
+      "type": "downloadApp"
+    }
+  },
+  {
+    "image": "b1.jpg?v=1",
     "action": {
       "type": "livechat"
     }
   },
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b2.jpg",
+    "image": "b2.jpg",
     "action": {
       "type": "livechat"
     }
   },
   {
-    "image": "https://static-stage.gball8.com/nvclub/nova-club/content/banners/b3.jpg"
+    "image": "b3.jpg"
   }
 ]
