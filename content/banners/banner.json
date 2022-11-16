@@ -1,5 +1,17 @@
 [
   {
+    "image": "wcbanner.jpg",
+    "action": {
+      "type": "internalRedirect",
+      "payload": {
+        "uri": "/event/wctnc",
+        "params": {
+          "locale": "vn"
+        }
+      }
+    }
+  },
+  {
     "image": "downloadApp.jpg",
     "action": {
       "type": "downloadApp"
