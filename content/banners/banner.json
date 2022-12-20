@@ -1,13 +1,10 @@
 [
   {
-    "image": "wcbanner.jpg",
+    "image": "affcup.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/wctnc",
-        "params": {
-          "locale": "vn"
-        }
+        "uri": "/event/affcup"
       }
     }
   },
