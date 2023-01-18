@@ -1,15 +1,15 @@
 [
   {
-    "image": "affcup.jpg",
+    "image": "cnyslot.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/affcup"
+        "uri": "/event/cnytnc"
       }
     }
   },
   {
-    "image": "downloadApp.jpg",
+    "image": "cnyDownloadApp.jpg",
     "action": {
       "type": "downloadApp"
     }
