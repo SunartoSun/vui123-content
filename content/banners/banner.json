@@ -17,7 +17,10 @@
   {
     "image": "b1.jpg?v=1",
     "action": {
-      "type": "livechat"
+      "type": "externalRedirect",
+      "payload": {
+        "uri": "https://vui123.net/partner.html"
+      }
     }
   },
   {
