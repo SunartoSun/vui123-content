@@ -1,6 +1,6 @@
 [
   {
-    "image": "cnyslot.jpg",
+    "image": "cnyslot.jpg?v=1",
     "action": {
       "type": "internalRedirect",
       "payload": {
