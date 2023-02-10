@@ -1,15 +1,15 @@
 [
   {
-    "image": "cnyslot.jpg?v=1",
+    "image": "valentine-banner.jpg?v=1",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/cnytnc"
+        "uri": "/event/valentinetnc"
       }
     }
   },
   {
-    "image": "cnyDownloadApp.jpg",
+    "image": "luckywheel-banner-3.jpg",
     "action": {
       "type": "downloadApp"
     }
