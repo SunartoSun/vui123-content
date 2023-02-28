@@ -1,13 +1,13 @@
 [
   {
-    "image": "spin-mania-banner.jpg?v=1"
-  },
-  {
-    "image": "valentine-banner.jpg?v=1",
+    "image": "spin-mania-banner.jpg?v=1",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/valentinetnc"
+        "uri": "/event/spin-mania-tnc",
+        "params": {
+          "locale": "vn"
+        }
       }
     }
   },
