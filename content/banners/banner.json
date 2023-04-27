@@ -1,10 +1,10 @@
 [
   {
-    "image": "spin-mania-banner-2.jpg?v=2",
+    "image": "cat-event-sea-game.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/spin-mania-tnc",
+        "uri": "/event/sea-game-event-tnc",
         "params": {
           "locale": "vn"
         }
