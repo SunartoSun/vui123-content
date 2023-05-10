@@ -20,9 +20,12 @@
   {
     "image": "b1-agent-recruitment.jpg?v=2",
     "action": {
-      "type": "externalRedirect",
+      "type": "internalRedirect",
       "payload": {
-        "uri": "https://vui123.net/partner.html"
+        "uri": "/banner/agent-tnc",
+        "params": {
+          "locale": "vn"
+        }
       }
     }
   },
