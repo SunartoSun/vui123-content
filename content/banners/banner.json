@@ -1,10 +1,10 @@
 [
   {
-    "image": "dragonboat-banner.jpg",
+    "image": "eufa-prediction.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/dragon-boat-event-tnc",
+        "uri": "/event/prediction-tnc",
         "params": {
           "locale": "vn"
         }
@@ -20,9 +20,12 @@
   {
     "image": "b1-agent-recruitment.jpg?v=2",
     "action": {
-      "type": "externalRedirect",
+      "type": "internalRedirect",
       "payload": {
-        "uri": "https://vui123.net/partner.html"
+        "uri": "/banner/agent-tnc",
+        "params": {
+          "locale": "vn"
+        }
       }
     }
   },
@@ -33,6 +36,6 @@
     }
   },
   {
-    "image": "b3.jpg"
+    "image": "login-banner.jpg"
   }
 ]
