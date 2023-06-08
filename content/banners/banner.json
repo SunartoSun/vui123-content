@@ -1,10 +1,10 @@
 [
   {
-    "image": "eufa-prediction.jpg",
+    "image": "dragonboat-banner.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/prediction-tnc",
+        "uri": "/event/dragon-boat-event-tnc",
         "params": {
           "locale": "vn"
         }
