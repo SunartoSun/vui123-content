@@ -13,7 +13,7 @@
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/plinko-event-tnc",
+        "uri": "/event/plinko-tnc",
         "params": {
           "locale": "vn"
         }
