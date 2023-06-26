@@ -9,11 +9,11 @@
     }
   },
   {
-    "image": "dragonboat-banner.jpg",
+    "image": "plinko-banner.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/dragon-boat-event-tnc",
+        "uri": "/event/plinko-event-tnc",
         "params": {
           "locale": "vn"
         }
