@@ -12,6 +12,9 @@
     }
   },
   {
+    "image": "banner-daily-win.jpg"
+  },
+  {
     "image": "luckywheel-banner-3.jpg",
     "action": {
       "type": "downloadApp"
@@ -37,8 +40,5 @@
   },
   {
     "image": "login-banner.jpg"
-  },
-  {
-    "image": "banner-daily-win.jpg"
   }
 ]
