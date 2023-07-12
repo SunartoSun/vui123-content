@@ -15,6 +15,9 @@
     "image": "banner-daily-win.jpg"
   },
   {
+    "image": "banner-bng.jpg"
+  },
+  {
     "image": "luckywheel-banner-3.jpg",
     "action": {
       "type": "downloadApp"
