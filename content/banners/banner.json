@@ -1,15 +1,21 @@
 [
   {
-    "image": "dragonboat-banner.jpg",
+    "image": "plinko-banner-2.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
-        "uri": "/event/dragon-boat-event-tnc",
+        "uri": "/event/plinko-tnc",
         "params": {
           "locale": "vn"
         }
       }
     }
+  },
+  {
+    "image": "banner-daily-win.jpg"
+  },
+  {
+    "image": "banner-bng.jpg"
   },
   {
     "image": "luckywheel-banner-3.jpg",
