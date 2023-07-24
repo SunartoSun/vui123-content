@@ -12,7 +12,7 @@
     }
   },
   {
-    "image": "banner-daily-win.jpg",
+    "image": "banner-pp.jpg",
     "action": {
       "type": "externalRedirect",
       "payload": {
