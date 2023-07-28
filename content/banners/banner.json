@@ -12,20 +12,14 @@
     }
   },
   {
+    "image": "banner-new-web.jpg"
+  },
+  {
     "image": "banner-pp.jpg",
     "action": {
       "type": "externalRedirect",
       "payload": {
         "uri": "https://pp88.asia/vi/promotion/daily-wins/"
-      }
-    }
-  },
-  {
-    "image": "banner-bng.jpg",
-    "action": {
-      "type": "externalRedirect",
-      "payload": {
-        "uri": "https://servicebooongo.com//bngevent/event?event=202307BR&lang=vn&currency=kVND"
       }
     }
   },
