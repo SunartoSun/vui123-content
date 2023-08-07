@@ -5,6 +5,7 @@
     "blurHash": "|THwKl0xv[paQub:sSrwSuE+=%ShnmoHjEf8R+s=9cX9%0wbSwniWnR.WXR:s;obbEoMa}WYjcR*nNxZW=RkbZWCjbX8sBt6a#WCayoKbFf8oeWVNfodjFRnxWj]a#obWFsRj[bIjtWXWBj@j]f5jcs:a_WCj[a#WXj?f8",
     "guestAction": {
       "type": "modal",
+      "desktopType": "modal",
       "payload": {
         "uri": "LuckyDrawModal",
         "desktopUri": "LuckyDrawModal"
