@@ -1,6 +1,6 @@
 [
   {
-    "image": "plinko-banner-2.jpg",
+    "image": "plinko-banner-august.jpg",
     "action": {
       "type": "internalRedirect",
       "payload": {
@@ -12,10 +12,16 @@
     }
   },
   {
-    "image": "banner-daily-win.jpg"
+    "image": "banner-new-web.jpg"
   },
   {
-    "image": "banner-bng.jpg"
+    "image": "banner-pp.jpg",
+    "action": {
+      "type": "externalRedirect",
+      "payload": {
+        "uri": "https://pp88.asia/vi/promotion/daily-wins/"
+      }
+    }
   },
   {
     "image": "luckywheel-banner-3.jpg",
