@@ -3,6 +3,9 @@ stages:
 
 .stg-nova-club-content: &stg-nova-club-content
     stage: imageToNfsStatic
+    only:
+      - staging
+
     tags:
       - G-STGR8SYNC071
     script:
