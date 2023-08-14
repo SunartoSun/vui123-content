@@ -18,8 +18,8 @@
       "type": "internalRedirect",
       "desktopType": "internalRedirect",
       "payload": {
-        "uri": "/lucky-spin-tnc'",
-        "desktopUri": "/lucky-spin-tnc'",
+        "uri": "/lucky-spin-tnc",
+        "desktopUri": "/lucky-spin-tnc",
         "params": {
           "locale": "vn"
         }
