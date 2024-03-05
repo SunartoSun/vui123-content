@@ -6,7 +6,7 @@ stages:
     only:
       - master
     tags:
-      - TWN8SYNC031
+      - twn88sync01
     script:
       - echo "deploy nova-club-content To Nfs Static"
       - _pwd=`pwd` && echo ${_pwd}
