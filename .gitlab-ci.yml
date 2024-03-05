@@ -1,20 +1,20 @@
 stages:
-    - imageToNfsStatic
+  - imageToNfsStatic
 
 .stg-nova-club-content: &stg-nova-club-content
-    stage: imageToNfsStatic
-    only:
-      - staging
+  stage: imageToNfsStatic
+  only:
+    - staging
 
-    tags:
-      - stgn88sync071
-    script:
-      - echo "deploy nova-club-content To Nfs Static"
-      - _pwd=`pwd` && echo ${_pwd}
-      #- sudo sh ${_workDir}/ezrsynctonfs.sh ${_pwd}
-      - sudo rsync -av --delete ${_pwd}/content/ /mnt/k8sdata/em/www/web_static/static/nvclub/nova-club/content
+  tags:
+    - stgn88sync071
+  script:
+    - echo "deploy nova-club-content To Nfs Static"
+    - _pwd=`pwd` && echo ${_pwd}
+    #- sudo sh ${_workDir}/ezrsynctonfs.sh ${_pwd}
+    - sudo rsync -av --delete ${_pwd}/content/ /mnt/k8sdata/em/www/web_static/static/nvclub/nova-club/content
 
-    when: manual
+  when: manual
 stg-nova-club-content:
   <<: *stg-nova-club-content
   variables:
