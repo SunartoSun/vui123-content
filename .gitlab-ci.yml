@@ -7,7 +7,7 @@ stages:
       - staging
 
     tags:
-      - G-STGR8SYNC071
+      - stgn88sync071
     script:
       - echo "deploy nova-club-content To Nfs Static"
       - _pwd=`pwd` && echo ${_pwd}
